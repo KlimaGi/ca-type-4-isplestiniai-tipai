@@ -32,10 +32,10 @@ var WeekDayNamesLT;
 (function (WeekDayNamesLT) {
     WeekDayNamesLT["Monday"] = "pirmadienis";
     WeekDayNamesLT["Tuesday"] = "antradienis";
-    WeekDayNamesLT["Wednesday"] = "tre\u010Diadienis";
+    WeekDayNamesLT["Wednesday"] = "treciadienis";
     WeekDayNamesLT["Thursday"] = "ketvirtadienis";
     WeekDayNamesLT["Friday"] = "penktadienis";
-    WeekDayNamesLT["Saturday"] = "\u0161e\u0161tadienis";
+    WeekDayNamesLT["Saturday"] = "sestadienis";
     WeekDayNamesLT["Sunday"] = "sekmadienis";
 })(WeekDayNamesLT || (WeekDayNamesLT = {}));
 console.group('Literal types - užduotys');

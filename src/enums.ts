@@ -47,10 +47,10 @@ enum Answer {
 enum WeekDayNamesLT {
   Monday = 'pirmadienis',
   Tuesday = 'antradienis',
-  Wednesday = 'trečiadienis',
+  Wednesday = 'treciadienis',
   Thursday = 'ketvirtadienis',
   Friday = 'penktadienis',
-  Saturday = 'šeštadienis',
+  Saturday = 'sestadienis',
   Sunday = 'sekmadienis',
 }
 
