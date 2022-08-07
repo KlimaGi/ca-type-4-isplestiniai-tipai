@@ -28,6 +28,13 @@ console.group('Assertions - užduotys');
     console.groupEnd();
     console.group('3. Sukurkite <p> elementą kuriame spausdinsite skaičių - kiek kvadratėlių yra [2.] konteineryje');
     {
+        const countContainer = document.querySelector('#count-container');
+        let sqCount = 0;
+        const incSqCount = () => {
+            sqCount += 1;
+            countContainer.textContent = `Square count: ${sqCount}`;
+        };
+        btn.addEventListener('click', incSqCount);
     }
     console.groupEnd();
 }

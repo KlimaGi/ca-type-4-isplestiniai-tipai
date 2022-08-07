@@ -49,7 +49,14 @@ console.groupEnd();
 
 console.group('3. Sukurkite <p> elementą kuriame spausdinsite skaičių - kiek kvadratėlių yra [2.] konteineryje');
 {
-  // sprendimą|sprendimo pavyzdžius spausdinkite čia
+  const countContainer: HTMLParagraphElement = document.querySelector('#count-container') as HTMLParagraphElement;
+
+  let sqCount: number = 0;
+  const incSqCount: EventHandler = () => {
+    sqCount += 1;
+    countContainer.textContent = `Square count: ${sqCount}`;
+  };
+  btn.addEventListener('click', incSqCount);
 }
 console.groupEnd();
 }
