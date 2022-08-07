@@ -3,7 +3,8 @@
 /* eslint-disable no-lone-blocks */
 
 /*
-  Assertion(Teigimas) - tai papildoma direktyva tiksliau aprašyti tipui, kuomet programuotojui žinoma daugiau
+  Assertion(Teigimas) - tai papildoma direktyva tiksliau aprašyti tipui,
+   kuomet programuotojui žinoma daugiau
   informacijos nei gali žinoti TypeScript transpiliatorius.
   Įmanoma 'teigti' tik tuos tipus, kurie priklauso potencialių tipų aibei
 */
