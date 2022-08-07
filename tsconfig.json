@@ -24,5 +24,6 @@
   "include": [
     "src/union-operators.ts",
     "src/tuples.ts",
+    "src/assertions.ts",
   ]
 }
